@@ -16,7 +16,7 @@ seguenti:
 
 ## DOWNLOAD
 
-## LICENSE
+## LICENZA
 [MIT License](https://github.com/marsild/ProgettoReti-2021/blob/main/LICENSE)
 
 ## AUTORE
