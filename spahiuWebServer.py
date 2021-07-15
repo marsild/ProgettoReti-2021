@@ -8,8 +8,9 @@ Matricola: 916048
 Traccia 2: Python Web Server
 """
 
+import sys
+import signal
 import http.server
-import sys,signal
 import socketserver
 import threading
 
@@ -370,9 +371,7 @@ def resfresh_contents():
     create_page_FSE()
     print("Aggiornamento terminato.\n")
    
-# lancio un thread che inizialmente carina il meteo per la città di rimini
-# questo thread ogni 300 secondi (5 minuti) aggiorna il meteo e i relativi
-# contenuti delle pagine     
+# lancio un thread che ogni 300 secondi (5 minuti) aggiorna i contenuti delle pagine     
 def launch_thread_resfresh():
     t_refresh = threading.Thread(target=resfresh_contents())
     t_refresh.daemon = True
