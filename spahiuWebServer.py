@@ -188,7 +188,7 @@ end_page_118= """
 
 # (end_page) pronto soccorso:
 end_page_pronto_soccorso= """
-		<form action="http://127.0.0.1:{port}/pronto-soccorso" method="post" style="text-align: center;">
+		<form action="http://127.0.0.1:{port}/pronto-soccorso.html" method="post" style="text-align: center;">
           <hr>
           <img src='resources/pronto_soccorso.png'
           style="float:left; left:0px; top:0px; width:90px; height:90px; border:none;" />
