@@ -136,7 +136,7 @@ footer_html= """
 
 # (end_page) home:
 end_page_index = """
-		<form action="http://127.0.0.1:{port}/home" method="post" style="text-align: center;">
+		<form action="http://127.0.0.1:{port}" method="post" style="text-align: center;">
         <hr>
           <img src='resources/hospital.jpg'
           style="float:left; left:0px; top:0px; width:180px; height:90px; border:none;" />
