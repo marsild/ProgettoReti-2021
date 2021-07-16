@@ -125,7 +125,7 @@ navigation_bar = """
 """.format(port=port)
 
 # [message = header_html + title + navigation_bar + end_page + footer_html]
-# la parte finale (footer_html) è identica per tutti i giornali
+# la parte finale (footer_html) è identica per tutti i servizi
 footer_html= """
         </table>
     </body>
